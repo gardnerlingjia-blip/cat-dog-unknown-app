@@ -1,0 +1,331 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\froman\fcharset0 Times-Bold;\f2\froman\fcharset0 TimesNewRomanPS-BoldMT;
+\f3\fmodern\fcharset0 Courier;\f4\fnil\fcharset0 AppleColorEmoji;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red109\green109\blue109;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c50196\c50196\c50196;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid102\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid201\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat2\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid301\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat3\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid401\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat4\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid501\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid6}
+{\list\listtemplateid7\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid7}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}{\listoverride\listid7\listoverridecount0\ls7}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+Here\'92s your 
+\f1\b \strokec2 super-quick \'93tomorrow morning\'94 cheat sheet
+\f0\b0 \strokec2  (Cloud Run + Docker + REST + env vars + tokens), so you can walk into the Google AI camp calm.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 1) The 20-second container mental model\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0
+\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Dockerfile
+\f0\b0  = recipe\
+\ls1\ilvl0
+\f1\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Image
+\f0\b0  = built artifact (immutable)\
+\ls1\ilvl0
+\f1\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Container
+\f0\b0  = running instance of an image\
+\ls1\ilvl0
+\f1\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Registry
+\f0\b0  = place to store images (Artifact Registry on GCP)\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 2) Cloud Run in one sentence\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 \strokec2 Cloud Run runs your container behind an HTTPS URL
+\f0\b0 \strokec2  and auto-scales (including 
+\f1\b \strokec2 scale to zero
+\f0\b0 \strokec2 ).\
+Flow:\uc0\u8232 
+\f1\b \strokec2 Client 
+\f2 \uc0\u8594 
+\f1  HTTPS 
+\f2 \uc0\u8594 
+\f1  Cloud Run 
+\f2 \uc0\u8594 
+\f1  your container 
+\f2 \uc0\u8594 
+\f1  response
+\f0\b0 \strokec2 \
+You don\'92t manage servers.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 3) REST API basics (what you\'92ll actually use)\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls2\ilvl0
+\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 GET
+\f0\b0  = read\
+\ls2\ilvl0
+\f1\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 POST
+\f0\b0  = send data / create / \'93predict\'94\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Response is usually 
+\f1\b JSON
+\f0\b0 \
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Common status codes:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
+\ls2\ilvl1
+\f1\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f2 \uc0\u9702 
+\f1 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 200
+\f0\b0  OK\
+\ls2\ilvl1
+\f1\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f2 \uc0\u9702 
+\f1 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 400
+\f0\b0  bad request\
+\ls2\ilvl1
+\f1\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f2 \uc0\u9702 
+\f1 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 401/403
+\f0\b0  auth problems\
+\ls2\ilvl1
+\f1\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f2 \uc0\u9702 
+\f1 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 500
+\f0\b0  server error\
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \strokec2 Test APIs with:\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \strokec2 \
+curl -X GET https://...\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 4) Env vars (how secrets/config are passed)\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0\fs24 \cf0 \strokec2 Locally:\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \strokec2 \
+export API_KEY="..."\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf0 \strokec2 In code:\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \strokec2 \
+import os\
+key = os.getenv("API_KEY")\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf0 \strokec2 In Cloud Run: env vars are configured at deploy time (no hardcoding).\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 5) Tokens & auth (Google Cloud practical)\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0\fs24 \cf0 \strokec2 Two useful commands:\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f1\b\fs28 \cf0 \strokec2 Browser login for gcloud CLI\
+\pard\pardeftab720\partightenfactor0
+
+\f3\b0\fs26 \cf0 \strokec2 \
+gcloud auth login\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f1\b\fs28 \cf0 \strokec2 Application Default Credentials (common for SDKs)\
+\pard\pardeftab720\partightenfactor0
+
+\f3\b0\fs26 \cf0 \strokec2 \
+gcloud auth application-default login\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf0 \strokec2 Check what account + project you\'92re using:\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \strokec2 \
+gcloud config list\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 6) The \'93Cloud Run deployment loop\'94 (classic)\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0\fs24 \cf0 \strokec2 This is the typical workflow you\'92ll see tomorrow:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls3\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Build image\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \
+docker build -t myapp .\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls4\ilvl0
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Tag it for Artifact Registry (example format)\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \
+docker tag myapp REGION-docker.pkg.dev/PROJECT/REPO/myapp:latest\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls5\ilvl0
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Push\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \
+docker push REGION-docker.pkg.dev/PROJECT/REPO/myapp:latest\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls6\ilvl0
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Deploy to Cloud Run\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \
+gcloud run deploy myapp \\\
+  --image REGION-docker.pkg.dev/PROJECT/REPO/myapp:latest \\\
+  --platform managed \\\
+  --region REGION \\\
+  --allow-unauthenticated\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf0 \strokec2 (They may use Cloud Build instead of local Docker, but the concept is the same.)\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 7) One more important note: your Python 3.14\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0\fs24 \cf0 \strokec2 For ML / cloud labs, 
+\f1\b \strokec2 Python 3.14 can sometimes break dependencies
+\f0\b0 \strokec2 .\
+If they say \'93use 3.10\'963.12\'94, do this fast:\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f1\b\fs28 \cf0 \strokec2 Check if you have python3.12\
+\pard\pardeftab720\partightenfactor0
+
+\f3\b0\fs26 \cf0 \strokec2 \
+python3.12 --version\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf0 \strokec2 If not, and you have Homebrew:\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \strokec2 \
+brew install python@3.12\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf0 \strokec2 Then:\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \strokec2 \
+python3.12 --version\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf0 \strokec2 (Only do this if the camp instructions require it.)\
+\pard\pardeftab720\sa321\partightenfactor0
+
+\f1\b\fs48 \cf0 \
+Environment Variables\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0\fs24 \cf0 Environment variables store:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls7\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 API keys\
+\ls7\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Secrets\
+\ls7\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Config values\
+\ls7\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Tokens\
+\pard\tx720\pardeftab720\sa240\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 import os\
+API_KEY = os.getenv("API_KEY")\
+\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f4\b0\fs28 \cf0 \strokec2 \uc0\u9989 
+\f1\b  Python 3.10+\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0\fs24 \cf0 \strokec2 You\'92re on 3.14 \'97 fine.\uc0\u8232 But some tools may expect 3.10\'963.12.\u8232 If needed, use 
+\f3\fs26 \strokec2 pyenv
+\f0\fs24 \strokec2 .\
+\pard\tx720\pardeftab720\sa240\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 \
+\pard\pardeftab720\sa298\partightenfactor0
+\cf0 \
+Core HTTP Methods\
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth906\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1686\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+
+\fs24 \cf0 Method\cell 
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf0 Meaning\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth906\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1686\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b0 \cf0 GET\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Retrieve data\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth906\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1686\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 POST\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Create something\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth906\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1686\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 PUT\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Update\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth906\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1686\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 DELETE\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Remove\cell \lastrow\row}
